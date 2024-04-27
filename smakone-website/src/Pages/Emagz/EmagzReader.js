@@ -13,10 +13,10 @@ const EmagzReader = () => {
     const book = useRef();
     console.log(imageList)
     return(
-        <div>
+        <div className="overflow-hidden">
             <Nav />           
-            <div className="container mx-auto h-screen w-screen pt-28" >
-               <HTMLFlipBook width={595} height={843} maxHeight={2160} maxWidth={3840} minHeight={100} minWidth={200} size="stretch" showCover={false} autoSize={false}>
+            <div className="container mx-auto h-screen w-screen pt-16" >
+               <HTMLFlipBook width={595} height={843} maxHeight={2160} maxWidth={3840} minHeight={100} minWidth={200} size="fixed" showCover={false} autoSize={false}>
                     {imageList.map((image, index) => (
                         <div className='page'><img src={image} alt={index} /></div>))}
                 </HTMLFlipBook>

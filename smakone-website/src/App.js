@@ -20,6 +20,7 @@ import MattheusBryanDjahtranto from './Pages/Home/Alasan/Mattheus'
 import Osis from './Pages/Osis/Osis'
 import Emagz from './Pages/Emagz/Emagz'
 import EmagzReader from './Pages/Emagz/EmagzReader'
+import Reader from './Pages/Emagz/Reader';
 import Ass1st from './Pages/Ass1st/Ass1st'
 import Kedokteran from './Pages/Ass1st/Jurusan/Kedokteran'
 import Farmasi from './Pages/Ass1st/Jurusan/Farmasi'
@@ -122,6 +123,7 @@ function App() {
             <Route path='/OSIS/bidang10' element={<OSIS_10/>}/>
           <Route path='/OSIS/Emagz' element={<Emagz/>}/>
           <Route path='/OSIS/Emagz/EmagzReader' element={<EmagzReader/>}/>
+          <Route path='/OSIS/Emagz/Reader' element={<Reader/>}/>
           <Route path='/OSIS/ASS1ST' element={<Ass1st/>}/>
             <Route path='/OSIS/ASS1ST/Kedokteran' element={<Kedokteran/>}/>
             <Route path='/OSIS/ASS1ST/Farmasi' element={<Farmasi/>}/>
