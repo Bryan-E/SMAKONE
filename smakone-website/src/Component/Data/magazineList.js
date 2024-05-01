@@ -81,7 +81,7 @@ export const magazineList = [
         id:12,
         title: "Cornucopia",
         img:Cornucopia,
-        link: "https://smakone.org/OSIS/Emagz/EmagzReader"
+        link: "https://smakone.org/OSIS/Emagz/Reader"
     }
 
 ]
