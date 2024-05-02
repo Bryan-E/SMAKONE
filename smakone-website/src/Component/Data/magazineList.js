@@ -10,6 +10,7 @@ import InspirationLatitude from '../../Image/Emagz/InspirationLatitude.webp'
 import AutumnSonata from '../../Image/Emagz/AutumnSonata.webp'
 import JubileeJuly from '../../Image/Emagz/JubileeJuly.webp'
 import Cornucopia from '../../Image/Emagz/Cornucopia.webp'
+import BlossomLuminance from '../../Image/Emagz/BlossomLuminance.webp'
 export const magazineList = [
     {
         id:1,
@@ -81,7 +82,12 @@ export const magazineList = [
         id:12,
         title: "Cornucopia",
         img:Cornucopia,
-        link: "https://smakone.org/OSIS/Emagz/Reader"
+        link: "/OSIS/Emagz/Cornucopia"
+    },
+    {
+        id:13,
+        title: "BlossomLuminance",
+        img:BlossomLuminance,
+        link: "/OSIS/Emagz/BlossomLuminance"
     }
-
 ]
